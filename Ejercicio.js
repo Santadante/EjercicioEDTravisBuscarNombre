@@ -7,7 +7,7 @@ let ejercicio = function MiNombre(texto)
     let error = "tu nombre no se encuentra en la tercera línea";
     let correcto = "tu nombre se encuentra en la tercera línea"
     for (let i = 0; i < texto.length; i++) {
-        if(nombres[i] == "\n")
+        if (texto[i] == "\n")
             contador++;
         if (contador == 2 && texto[i] != "\n")
             palabras += texto[i];
