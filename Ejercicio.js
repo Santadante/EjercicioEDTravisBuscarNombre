@@ -17,7 +17,7 @@ let MiNombre = function MiNombre(texto)
         }
         if(contador == 3 && texto != nombre)
         {
-            return palabras + ", " + error;
+            return nombre + ", " + error;
         }
     }
 }
