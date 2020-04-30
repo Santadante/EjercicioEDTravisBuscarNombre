@@ -17,10 +17,10 @@ let MiNombre = function MiNombre(texto)
         }
         if(contador == 3 && texto != nombre)
         {
-            return error;
+            return palabras + ", " + error;
         }
     }
 }
 module.exports = {
-	MiNombre()
+	MiNombre
 }
