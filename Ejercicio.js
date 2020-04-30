@@ -1,27 +1,26 @@
 'use strict'
-let ejercicio = function MiNombre()
+let ejercicio = function MiNombre(texto)
 {
     let contador = 0;
     let palabras = "";
     let nombre = "David"
     let error = "tu nombre no se encuentra en la tercera línea";
     let correcto = "tu nombre se encuentra en la tercera línea"
-    for (let i = 0; i < nombres.length; i++) {
+    for (let i = 0; i < texto.length; i++) {
         if(nombres[i] == "\n")
             contador++;
-        if (contador == 2 && nombres[i] != "\n")
-            palabras += nombres[i];
-        if (contador == 3 && palabras == nombre)
+        if (contador == 2 && texto[i] != "\n")
+            palabras += texto[i];
+        if (contador == 3 && texto == nombre)
         {
             return palabras + ", " + correcto;
         }
-        if(contador == 3 && palabras != nombre)
+        if(contador == 3 && texto != nombre)
         {
             return error;
         }
     }
 }
-let nombres = "Juan\nPedro\nDavid\nErnesto";
 module.exports = {
 	ejercicio
 }
