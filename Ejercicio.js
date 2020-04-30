@@ -22,5 +22,5 @@ let MiNombre = function MiNombre(texto)
     }
 }
 module.exports = {
-	MiNombre(texto)
+	MiNombre()
 }
