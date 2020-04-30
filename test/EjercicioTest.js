@@ -2,7 +2,7 @@
 var assert = require('assert' );
 
 // Cargar el módulo con las funciones para testear
-var func = require('Ejercicio.js');
+var func = require('../Ejercicio.js');
 
 // Test
 it('comprobar función ejercicio', function() {
