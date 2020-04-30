@@ -11,7 +11,7 @@ let MiNombre = function MiNombre(texto)
             contador++;
         if (contador == 2 && texto[i] != "\n")
             palabras += texto[i];
-        if (contador == 3 && texto == nombre)
+        if (contador == 3 && palabras == nombre)
         {
             return palabras + ", " + correcto;
         }
