@@ -6,5 +6,5 @@ var func = require('../Ejercicio.js');
 
 // Test
 it('comprobar función ejercicio', function() {
-	assert.equal(func.ejercicio("Juan\nPedro\nDavid\nErnesto"), "David, tu nombre se encuentra en la tercera línea");
+	assert.equal(func.MiNombre("Juan\nPedro\nDavid\nErnesto"), "David, tu nombre se encuentra en la tercera línea");
 });
