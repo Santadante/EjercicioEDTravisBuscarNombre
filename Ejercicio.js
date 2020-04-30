@@ -1,5 +1,5 @@
 'use strict'
-let ejercicio = function MiNombre(texto)
+let MiNombre = function MiNombre(texto)
 {
     let contador = 0;
     let palabras = "";
@@ -22,5 +22,5 @@ let ejercicio = function MiNombre(texto)
     }
 }
 module.exports = {
-	ejercicio
+	MiNombre
 }
