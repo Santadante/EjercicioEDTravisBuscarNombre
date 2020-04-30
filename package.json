@@ -1,0 +1,15 @@
+{
+  "name": "plantilla-js",
+  "version": "1.0.0",
+  "description": "Ejemplo de Desarrollo Guiado por Test en Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Basado en los apuntes de Pedro Prieto Alarcón",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
+}
